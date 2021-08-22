@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    background-image: url(/bg_new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 8rem;
+}
+
+.top-container img
+{
+    width: 120px;
+    border-radius: 3px;
+}
+
+#home
+{
+    color: white;
+}
+
+#dot
+{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 265px;
+    top: -35px;
+}
+.top-container ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+.top-container li
+{
+    font-family: 'Teko', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #bbb;
+    padding: 0 2rem;
+}
+
+.icon-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -80px;
+    margin-right: 80px;
+}
+
+#search
+{
+    width: 25px;
+    margin-right: 30px;
+}
+
+#menu
+{
+    width: 25px;
+}
+
+.title-container
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+.title
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.title h1
+{
+    font-family: 'Teko', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.title img
+{
+    width: 650px;
+}
+
+.info-container
+{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.info
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info img
+{
+    width: 30px;
+}
+
+.info h1
+{
+    font-family: 'Teko', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.view-container
+{
+    text-align: center;
+    width: 80ch;
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    color: white;
+    line-height: 23px;
+}
+
+.info img
+{
+    width: 20px;
+}
+
+.info span
+{
+    margin: 0 1.5rem;
+}
+
+.gallery-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.gallery
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.gallery h1
+{
+    font-family: 'Teko', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.gallery img
+{
+    width: 20px;
+}
+
+.gallery span
+{
+    margin: 0 1.5rem;
+}
+
+.pic-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pic-container img
+{
+    width: 150px;
+}
+
+.cast-container
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    margin-top: -30px;
+    margin-right: 50px;
+}
+
+.cast-container div
+{
+    padding: 0 4rem;
+    text-align: center;
+}
+
+.cast-container h1
+{
+    font-family: 'Teko', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    color: rgba(187, 187, 187, 0.753);
+}
+
+.cast-container p
+{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.starring
+{
+    width: 80ch;
+    margin-right: -30px;
+}
+
+.writer
+{
+    margin-right: -10px;
+}
