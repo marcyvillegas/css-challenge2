@@ -1,4 +1,4 @@
-# css-challenge2
+# css-challenge2🎲
 
 This is my submission to another CSS Challenge in Bryl's discord server. A layout of the challenge has been provided by https://github.com/mmmsss211
 
